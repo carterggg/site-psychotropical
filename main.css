@@ -1,8 +1,6 @@
 /* BASE */
 body {
-  background-image: url("images/layout/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-color: black; }
 
 h1 {
   font-family: "courier_primeregular"; }
@@ -32,9 +30,11 @@ a:active {
   margin: auto;
   text-align: center; }
 
-.footer-text {
-  font-size: 2em;
-  color: white; }
+.rain-background {
+  background-image: url("images/layout/rain-animation.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto; }
 
 /* Video EMBed responsive code */
 .responsive-vid {

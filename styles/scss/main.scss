@@ -6,9 +6,7 @@ $main-font: 'courier_primeregular';
 /* BASE */ 
 
 body {
-	background-image: url("images/layout/background.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
+	background-color: $main-color;
 }
 
 h1 {
@@ -49,10 +47,15 @@ a:active {
 	text-align: center;
 }
 
-.footer-text {
-	font-size: 2em;
-	color: $main-color2;
+.rain-background {
+	background-image: url("images/layout/rain-animation.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
 }
+
+
+
 
 /* Video EMBed responsive code */
 
