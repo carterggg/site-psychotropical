@@ -34,7 +34,17 @@ a:active {
   background-image: url("images/layout/rain-animation.gif");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   margin: auto; }
+
+.nav-tab img {
+  float: left; }
+
+.nav-tab {
+  margin-left: 460px; }
+
+.nav-tab .nav-style img {
+  margin-right: 5px; }
 
 /* Video EMBed responsive code */
 .responsive-vid {
