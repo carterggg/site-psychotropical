@@ -51,8 +51,12 @@ a:active {
 	background-image: url("images/layout/rain-animation.gif");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	margin: auto;
+	 position: absolute;
+    left: 220px;
+    top: 30px;
+    z-index: -1;
 }
 
 .nav-tab img {
